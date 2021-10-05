@@ -23,9 +23,3 @@ class Solution(object):
             else:
                 maxProfit = max(maxProfit, trade - lowestBuy)
         return maxProfit
-
-  
-
-a = Solution();
-test = [3, 3, 2, 4, 6];
-print(a.maxProfit(test))
